@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+	<h1>Registration</h1><hr><br>
+		<!-- GET attribute posts the data in the URL for people to see, but POST doesn't -->
+	<form method="POST">
+		First Name: <input type="text" name="firstname"><br><br>
+		Last Name: <input type="text" name="lastname"><br><br>
+		Email: <input type="email" name="email" required><br><br>
+		Password: <input type="Password" name="Password" min="6"><br><br>
+		Birthday: <input type="date" name="birthday"><br><br>
+		Gender:<br>
+		<input type="radio"	name="Gender" value="Male">Male<br>
+		<input type="radio"	name="Gender" value="Female">Female<br>
+		<input type="radio"	name="Gender" value="Other">Other<br><br> 
+		Pets:<br>
+		<input type="checkbox" name="cat"> Cat<br>
+		<input type="checkbox" name="dog"> Dog<br>
+		<input type="checkbox"> Other <input type="text"><br><br>
+		Car:<br>
+		<select name="cars">
+			<option value="volvo">Volvo</option>
+			<option value="Toyota">Toyota</option>
+			<option value="Honda">Honda</option>
+			<option value="BMW">BMW</option>
+			<option value="Ford">Ford</option>.
+			<option value="Nissan">Nissan</option>
+			<option value="Volkswagen">Volkswagen</option>
+			<option value="Audi">Audi</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Register!">
+		<input type="reset"><br><br><br>
+		<strong><a href="index.html">Go back</a></strong>
+
+	</form>
+</body>
+</html>
